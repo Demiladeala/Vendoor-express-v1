@@ -17,7 +17,7 @@ const header = () => {
             <MdOutlineKeyboardArrowDown />
           </div>
           <div className='md:mr-4'>
-            <button className='text-white text-sm sm:text-base bg-[#DB3305] py-1 px-3 max-[300px]:px-2 md:py-[0.3rem] md:px-16 rounded-lg sm:rounded-xl hover:opacity-75'>Sign in</button>
+            <button className='text-white max-[300px]:text-sm text-base bg-[#DB3305] py-1 px-6 max-[300px]:px-2 md:py-[0.3rem] md:px-16 rounded-lg sm:rounded-xl hover:opacity-75'>Sign in</button>
           </div>
         </div>
     </div>
