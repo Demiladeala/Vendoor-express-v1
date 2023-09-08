@@ -1,4 +1,18 @@
+@import url('https://fonts.cdnfonts.com/css/louis-george-cafe');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+*{
+    font-family: 'Louis George Café', sans-serif;
+    -webkit-tap-highlight-color: transparent; /* For iOS */
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* For Android */
+    tap-highlight-color: transparent; /* For some other browsers */
+    scroll-behavior: smooth;
+}
+.hero{
+    background-image: linear-gradient(#F4C0B2,#F7F7F7);
+}
+.hero-search::placeholder {
+    color: #3a3a3a;
+  }
+  

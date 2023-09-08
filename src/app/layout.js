@@ -1,4 +1,6 @@
+import Footer from '@/components/Footer'
 import './globals.css'
+import Header from '@/components/Header'
 
 export const metadata = {
   title: 'Vendoor express',
@@ -8,7 +10,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className='bg-body-bg-color'>
+        <Header />
+          {children}
+        <Footer />
+      </body>
     </html>
   )
 }
