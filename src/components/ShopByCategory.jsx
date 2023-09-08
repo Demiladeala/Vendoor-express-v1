@@ -25,7 +25,7 @@ const ShopByCategory = () => {
       <p className='text-black-color-text'>See All</p>
     </div>
 
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 py-4">
+    <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 py-4">
       <div className='text-center'>
         <div className='bg-body-bg-color h-[200px] bg-center object-cover flex items-center justify-center p-4'>
         <Image width={500} height={300} alt='seller brand image' className='object-contain bg-center w-full h-full' src={image1}></Image>

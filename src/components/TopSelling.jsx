@@ -13,7 +13,7 @@ const TopSelling = () => {
         <p className='text-black-color-text'>See All</p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 py-4">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 py-4">
         <div className=''>
           <div className='sm:h-60'>
             <Image alt='product' className='bg-center object-cover w-full h-full' src={image1} width={500} height={300}></Image>

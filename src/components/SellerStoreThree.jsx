@@ -13,7 +13,7 @@ const SellerStoreThree = () => {
       <p className='text-black-color-text'>See All</p>
     </div>
 
-    <div className="bg-white grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 py-4 pt-6 px-3">
+    <div className="bg-white grid grid-cols-2 lg:grid-cols-4 gap-5 py-4 pt-6 px-3">
       <div className=''>
         <div className=''>
           <Image alt='product' className='bg-center object-cover w-full h-full' src={image1} width={500} height={300}></Image>
