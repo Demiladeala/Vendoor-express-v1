@@ -7,7 +7,7 @@ const header = () => {
   return (
     <div className='w-full px-4 py-5 bg-[#F4C0B2] fixed z-40 top-0 left-0 flex justify-between items-center'>
         <div>
-            <Image alt='logo' src={logo} className='md:ml-8 max-[300px]:ml-0  max-[300px]:w-[5.5rem] w-[6rem] sm:w-[8rem] md:w-[10rem]'></Image>
+            <Image alt='logo' src={logo} className='md:ml-8 max-[300px]:ml-0  max-[300px]:w-[5.5rem] max-[350px]:w-[6rem] w-[7rem] sm:w-[8rem] md:w-[10rem]'></Image>
         </div>
 
         <div className='flex items-center gap-5'>
