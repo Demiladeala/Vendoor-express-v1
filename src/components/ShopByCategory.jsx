@@ -27,49 +27,57 @@ const ShopByCategory = () => {
 
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 py-4">
       <div className='text-center'>
-        <div className='bg-body-bg-color h-[200px] bg-center object-cover flex items-center justify-center px-4'>
+        <div className='bg-body-bg-color h-[200px] bg-center object-cover flex items-center justify-center p-4'>
+        <Image width={500} height={300} alt='seller brand image' className='object-contain bg-center w-full h-full' src={image1}></Image>
         </div>
         <p className='text-black-color-text mt-3 text-lg font-semibold text-center'>Phones</p>
       </div>
 
       <div className='text-center'>
-        <div className='bg-body-bg-color h-[200px] bg-center object-cover flex items-center justify-center px-3'>
+        <div className='bg-body-bg-color h-[200px] bg-center object-cover flex items-center justify-center p-4'>
+        <Image width={500} height={300} alt='seller brand image' className='object-contain bg-center w-full h-full' src={image3}></Image>
         </div>
         <p className='text-black-color-text mt-3 text-lg font-semibold text-center'>Shoes & Bags</p>
       </div>
 
       <div className='text-center'>
-        <div className='bg-body-bg-color h-[200px] bg-center object-cover flex items-center justify-center px-8'>
+        <div className='bg-body-bg-color h-[200px] bg-center object-cover flex items-center justify-center p-8'>
+        <Image width={500} height={300} alt='seller brand image' className='object-contain bg-center w-full h-full' src={image6}></Image>
         </div>
         <p className='text-black-color-text mt-3 text-lg font-semibold text-center'>Computing</p>
       </div>
 
       <div className='text-center'>
-        <div className='bg-body-bg-color h-[200px] bg-center object-cover flex items-center justify-center mdpx-20 gap-4'>
+        <div className='bg-body-bg-color h-[200px] bg-center object-cover flex items-center justify-center p-8'>
+        <Image width={500} height={300} alt='seller brand image' className='object-contain bg-center w-full h-full' src={image8}></Image>
         </div>
         <p className='text-black-color-text mt-3 text-lg font-semibold text-center'>Fashion</p>   
       </div>
 
       <div className='text-center'>
-        <div className='bg-body-bg-color h-[200px] bg-center object-cover flex items-center justify-center px-4'>
+        <div className='bg-body-bg-color h-[200px] bg-center object-cover flex items-center justify-center p-4'>
+        <Image width={500} height={300} alt='seller brand image' className='object-contain bg-center w-full h-full' src={image10}></Image>
         </div>
         <p className='text-black-color-text mt-3 text-lg font-semibold text-center'>Gaming</p>
       </div>
 
       <div className='text-center'>
-        <div className='bg-body-bg-color h-[200px] bg-center object-cover flex items-center justify-center px-4'>
+        <div className='bg-body-bg-color h-[200px] bg-center object-cover flex items-center justify-center p-4'>
+        <Image width={500} height={300} alt='seller brand image' className='object-contain bg-center w-full h-full' src={image11}></Image>
         </div>
         <p className='text-black-color-text mt-3 text-lg font-semibold text-center'>Fast Food</p>
       </div>
 
       <div className='text-center'>
-        <div className='bg-body-bg-color h-[200px] bg-center object-cover flex items-center justify-center px-3'>
+        <div className='bg-body-bg-color h-[200px] bg-center object-cover flex items-center justify-center p-4'>
+        <Image width={500} height={300} alt='seller brand image' className='object-contain bg-center w-full h-full' src={image12}></Image>
         </div>
         <p className='text-black-color-text mt-3 text-lg font-semibold text-center'>Jewelry</p>
       </div>
 
       <div className='text-center'>
-        <div className='bg-body-bg-color h-[200px] bg-center object-cover flex items-center justify-center px-4'>
+        <div className='bg-body-bg-color h-[200px] bg-center object-cover flex items-center justify-center p-4'>
+        <Image width={500} height={300} alt='seller brand image' className='object-contain bg-center w-full h-full' src={image16}></Image>
         </div>
         <p className='text-black-color-text mt-3 text-lg font-semibold text-center'>Home Electronics</p>
       </div>
