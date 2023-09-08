@@ -1,3 +1,5 @@
+"use client"
+import { useEffect, useState } from "react";
 import AdBanner from "@/components/AdBanner";
 import Category from "@/components/Category";
 import Hero from "@/components/Hero";
@@ -11,9 +13,34 @@ import TopGaming from "@/components/TopGaming";
 import TopPhone from "@/components/TopPhone";
 import TopSelling from "@/components/TopSelling";
 import TopShoes from "@/components/TopShoes";
+import { AiOutlineArrowUp } from "react-icons/ai";
+
 
 
 export default function Home() {
+  const [showButton, setShowButton] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const handleScrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
   return (
    <>
     <div>
@@ -71,6 +98,13 @@ export default function Home() {
       </section>
 
     </div>
+    <button
+          className='hidden fixed bottom-5 right-7 z-[90] border-none outline-none bg-foundation-red-active p-2 cursor-pointer rounded hover:bg-opacity-90'
+          onClick={handleScrollToTop}
+          style={{ display: showButton ? 'block' : 'none' }}
+        >
+          <AiOutlineArrowUp size={20}/>
+      </button>
     
    </>
   )
