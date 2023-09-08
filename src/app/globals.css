@@ -9,10 +9,16 @@
     tap-highlight-color: transparent; /* For some other browsers */
     scroll-behavior: smooth;
 }
+body{
+    background: #F7F7F7;
+}
 .hero{
     background-image: linear-gradient(#F4C0B2,#F7F7F7);
 }
 .hero-search::placeholder {
     color: #3a3a3a;
-  }
+}
+.box-shadow{
+    box-shadow: 0px 2.5px 5px 0px rgba(0, 0, 0, 0.05);
+}
   
