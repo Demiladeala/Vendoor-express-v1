@@ -57,9 +57,9 @@ export default function Home() {
         <TopSelling />
       </section>
 
-      <section id="shopByCategory">
+      {/* <section id="shopByCategory">
         <ShopByCategory />
-      </section>
+      </section> */}
 
       <section id="topPhone">
         <TopPhone />
@@ -81,9 +81,9 @@ export default function Home() {
         <AdBanner />
       </section>
 
-      <section id="shopByStore">
+      {/* <section id="shopByStore">
         <ShopByStore />
-      </section>
+      </section> */}
 
       <section id="sellerStore">
         <SellerStore />

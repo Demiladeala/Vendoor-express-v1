@@ -10,7 +10,7 @@ const TopFastFood = () => {
   return (
     <section className='w-[93%] p-3 bg-white mt-12 md:mt-16 mx-auto flex flex-col gap-5  box-shadow'>
       <div className='flex flex-row items-center justify-between'>
-        <h1 className='text-foundation-red-normal font-semibold text-2xl'>Top Fast Food Deals</h1>
+        <h1 className='text-foundation-red-normal font-semibold text-2xl'>Top <span className='hidden sm:inline'>Fast</span> Food Deals</h1>
         <p className='text-black-color-text'>See All</p>
       </div>
 
