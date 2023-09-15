@@ -12,25 +12,28 @@ const Hero = () => {
       <div className='text-black-color-text md:basis-[60%]'>
         <h2 className='w-[95%] mx-auto text-2xl md:text-3xl font-semibold md:mt-10'>Find <span className='text-foundation-red-normal'>Vendors</span> for every product and services you need <span className='text-foundation-red-normal'>around you</span></h2>
         
-        <div className='relative w-[95%] mr-auto mt-12 flex items-center'>
-          <div className='text-black-color-text relative left-6 top-[0.09rem] md:top-[0.1rem]'>
+        <div className='relative w-[95%] mx-auto mt-12 flex items-center'>
+          {/* <div className='text-black-color-text relative left-6 top-[0.09rem] md:top-[0.1rem]'>
             <AiOutlineSearch />
+          </div> */}
+          <div className='relative w-full md:w-[80%]'>
+            <input type="text" name="searchItem" id="searchItem" placeholder='Search item, shop, categories'
+            className='w-full border border-foundation-red-normal py-2 px-4 bg-transparent outline-none rounded-lg hero-search'/>
+          <div className='max-[360px]:hidden absolute top-0 right-[30%] w-px bg-foundation-red-normal h-full text-black-color-text flex items-center'>
+            <p className='pl-4'>Location</p>
           </div>
-          <input type='search' placeholder='Search item, shop, categories' className='px-6 w-[70%] h-[3rem] border border-foundation-red-normal bg-transparent outline-none rounded-tl-xl rounded-bl-xl border-r-0 hero-search' />
-          <div className='text-black-text-color w-[30%] h-[3rem] px-3 flex items-center justify-between border border-foundation-red-normal rounded-tr-xl rounded-br-xl'>
-            <p className='max-[300px]:text-xs max-[350px]:text-sm md:text-lg'>Location</p>
-            <MdOutlineKeyboardArrowDown className='cursor-pointer' />
+          <MdOutlineKeyboardArrowDown className='absolute right-3 top-3 cursor-pointer text-black-color-text' size={20} />
           </div>
         </div>
 
-        <div className='mt-5 md:mt-8 w-[90%] mx-auto text-xl md:w-[95%]'>
+        <div className='my-5 md:mt-8 w-[90%] mx-auto text-xl md:w-[95%]'>
           <button className='text-white text-sm sm:text-base bg-[#DB3305] py-2 px-16 rounded-xl hover:opacity-75'>Search</button>
         </div>
 
       </div>
 
       {/* HERO IMAGE SECTION */}
-      <div className='relative h-[25rem] md:h-[30rem] mt-8 md:basis-[40%] md:top-[-4rem]'>
+      <div className='relative h-[25rem] md:h-[30rem] md:basis-[40%] md:top-[-4rem]'>
         <Image alt='hero image' width={500} height={300} src={heroImage} className='w-full h-full object-cover bg-center'></Image>
       </div>
     </section>
